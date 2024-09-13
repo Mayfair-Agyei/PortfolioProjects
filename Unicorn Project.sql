@@ -126,9 +126,9 @@ WHERE product_id = 100;
 
 
 SELECT CONCAT(ROUND((SELECT COUNT(product_category):: NUMERIC
-										 FROM product
-										 WHERE product_category = 'Furniture'
- 										 GROUP BY product_category)/COUNT(product_category)*100,2),'%') perc_furniture
+		     FROM product
+		     WHERE product_category = 'Furniture'
+ 		     GROUP BY product_category)/COUNT(product_category)*100,2),'%') perc_furniture
 FROM product;
 --The percentage of Furniture products is 20.54%.
 
