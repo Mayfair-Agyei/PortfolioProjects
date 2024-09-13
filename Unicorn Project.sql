@@ -148,7 +148,7 @@ product_subcategory,
 FROM product
 GROUP BY 1
 ORDER BY 2 DESC, 1 ;
-;
+
 
 
 --Product_id(s) and sum of quantities, where the total sum of its product quantities 
