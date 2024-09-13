@@ -1,3 +1,12 @@
+/*
+These queries provide insights into customer behavior, product sales, and profitability across different categories and regions.
+The analysis reveals that there are 795 customers and orders were shipped from 531 cities. In 2015, New York City was the most profitable, 
+while Lebanon was the top city in Tennessee. Furniture is the most profitable category in Iowa, 
+with the Global Push Button Manager's Chair being the top seller in 2016. Sean Miller received the highest discount total. 
+The largest order sale in 2015 was $23,660. The study also covers monthly profit variations in 2018, product quantities, 
+and manufacturing details.
+*/
+
 SELECT COUNT(customer_id)
 FROM customers;
 -- There are 795 customers in the database
